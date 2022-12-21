@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: rgb(221, 205, 187);
+}
+header {
+    text-align: center;
+    font: 18pt normal Arial;
+}
+div#instrucao {
+    text-align: center;
+    font: 15pt normal Arial;
+}
+div#imagem {
+    text-align: center; 
+}
+img#foto {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+form {
+    font: 15pt normal Arial;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(241, 219, 177);
+    width: 600px;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+}
+input {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+input#botao {
+    border-radius: 5px;
+}
+input#botao:hover {
+    background-color: rgb(202, 177, 131);
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}

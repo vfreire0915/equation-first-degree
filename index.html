@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reta</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Calculadora de equação do 1º grau</h1>
+    </header>
+
+    <div id="instrucao">
+        <p>Uma função do primeiro grau é do tipo: </p>
+    </div>
+
+    <div id="imagem"><img src="foto.png" id="foto"></div>
+
+    <form>
+        <p>Calculadora</p>
+        <label>Coeficiente a: </label><input type="number" id="ca">
+        <label>Coeficiente b: </label><input type="number" id="cb">
+        <input type="button" value="Calcular" onclick="calcular()" id="botao">
+        <p id="res"></p>
+    </form>
+
+    <footer>
+        &copy VitorFreire
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
